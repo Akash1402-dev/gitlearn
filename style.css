@@ -38,7 +38,7 @@ body {
 
 img {
   display: block;
-  max-width: 400px;
+  max-width: 100%;
 }
 
 h1,
@@ -110,7 +110,7 @@ article > *:not(img) {
 
   article > img {
     grid-row: 1 / 4;
-    height: 800px;
+    height: 50%;
     object-fit: cover;
   }
 
